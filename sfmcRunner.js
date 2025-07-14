@@ -46,7 +46,7 @@ async function runAutomation() {
 }
 
 // STEP 3: Run every 1 minute
-// setInterval(runAutomation, 60 * 1000); // every 1 minute
+setInterval(runAutomation, 60 * 2000); // every 2 minute
 
 // Run immediately at start
 runAutomation();
